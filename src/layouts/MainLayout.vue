@@ -10,12 +10,9 @@
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
-
         <q-toolbar-title>
-          Quasar App
+          動態系統
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
